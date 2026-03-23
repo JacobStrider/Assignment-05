@@ -1,3 +1,17 @@
+/**
+ * Jacob Strider 
+ * 3/20/2026
+ * CSC 372-01
+ * 
+ * This is the js file for the GitHub Repository Viewer project. 
+ * It fetches and displays the 10 most recently updated repositories 
+ * for a given GitHub username. 
+ * The user can enter a username and click the search button
+ * or press Enter to load the repositories.
+ */
+
+
+
 const gallery = document.getElementById("gallery");
 
 window.onLoad = () => {
